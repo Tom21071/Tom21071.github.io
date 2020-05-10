@@ -1,0 +1,157 @@
+body{
+	background-image: url("bg.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover; 
+	font-family: 'Roboto', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+
+}
+header{
+	position:fixed;
+	display: block;
+	opacity: .8;
+	width: 100%;
+	color: white;
+	height:90px;
+	background-color: white;
+	top: 0;
+	left:0;
+	right:0;
+	justify-content: space-between;
+	display: flex;
+	align-items:center;
+	pointer-events:auto;
+
+
+}
+.arc{
+	font-size:35px;
+	color:black;
+	opacity: 1;
+	margin-left: 50px;
+	margin-bottom: 18px;
+	display: block;
+}
+.under{
+	font-size: 18px;
+	color: black;
+	margin-top: -35px;
+	margin-left: 22px;
+}
+.nav{
+	margin-right: 32px;
+	font-size: 18px;
+	display:table;
+
+}
+.nav_link{
+	margin:0 10px;
+}
+.nav_link:hover{
+ 	color:green;
+ 	transition: 0.3s;
+ 	font-size: 24px;
+ }
+
+a{
+	text-decoration:none;
+	color:black;
+}
+.center{
+	font-size: 140px;
+	color: white;
+	width: 1200px;
+	margin: 0 auto;
+}
+.m{
+	margin-top: -110px;
+	margin-left: 300px;
+	color:white;
+	font-size: 150px;
+}
+.aaa{
+	margin-left: 160px;
+	margin-top: 0px;
+	color: black;
+	font-size: 160px;
+}
+.ch{
+	width: 100%;
+	margin-top: 700px;
+	height: 3000px;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.inch{
+	width: 1200px;
+	height: 3000px;
+	background-color: rgba(255, 255, 255, 0.7);
+	margin: 0 auto;
+}
+.text{
+	font-size: 24px;
+	width: 1000px;
+	margin: 0 auto;
+}
+.aaaa{
+	margin-top: 50px;
+}
+.pam{
+	background-image: url("pam.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 290px;
+	height: 423px;
+}
+.big{
+	width: 1000px;
+	margin: 0 auto;
+	justify-content: space-between;
+	display: flex;
+	align-items:center;
+
+}
+.info{
+	font-size: 38px;
+}
+.what{
+	margin-top: 560px;
+}
+.whatt{
+	margin-bottom:250px;
+}
+
+.topp{
+	margin-top: 0px;
+	height: 1px;
+}
+.k{
+	margin-left: 110px;
+	margin-top: 100px;
+}
+.gate{
+justify-content: space-between;
+	display: flex;
+	align-items:center;
+}
+.gatep{
+	background-image: url("gate.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 500px;
+	height: 330px;
+	margin-right: 90px;
+	
+}
+.gateinf{
+	font-size: 40px;
+	margin-left: 50px;
+
+}
+.about{
+	width: 1000px;
+	font-size: 24px;
+	margin:0 auto;
+}
