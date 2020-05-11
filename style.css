@@ -155,3 +155,8 @@ justify-content: space-between;
 	font-size: 24px;
 	margin:0 auto;
 }
+
+@media (max-width:1160px;) {
+	.aaa{
+	color:white;}
+}
